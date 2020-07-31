@@ -1,0 +1,51 @@
+section {
+  height: 100vh;
+}
+
+h4 {
+  font-size: 1.75em;
+  margin: 0 0 0.75em 0;
+}
+
+.containerBlock {
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+  /* This line makes FlexBox responsive */
+}
+
+.textArticle {
+  display: flex;
+  flex-direction: center;
+
+  justify-content: center;
+  background-color: white;
+  flex: 0 1 50%;
+  min-width: 350px;
+
+  box-sizing: border-box;
+  padding: 0.7em;
+  min-height: 50vh;
+}
+
+.article {
+  margin-right: 10px;
+}
+
+.imageBlock {
+  display: flex;
+  flex-direction: column;
+  /* use: 'row' for text from top to bottom */
+  justify-content: center;
+  background-image: url("https://media.istockphoto.com/photos/cup-of-strong-black-coffee-in-a-white-cup-and-saucer-picture-id955592660?k=6&m=955592660&s=170667a&w=0&h=IqfHIfU0WI8rDIjCbgFrV4euOJLQasRDMNh_Jlq34HI=");
+  background-color: #fff;
+  background-position: 50% 0%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  flex: 1 0 50%;
+  min-width: 300px;
+  box-sizing: border-box;
+  padding: 1em;
+
+  min-height: 50vh;
+}

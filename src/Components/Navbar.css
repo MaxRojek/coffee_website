@@ -1,0 +1,15 @@
+.navbar {
+  background-color: white !important;
+  color: black;
+  font-size: 25px;
+  -webkit-box-shadow: 0 3px 6px -6px rgb(0, 0, 0);
+  -moz-box-shadow: 0 3px 6px -6px rgb(27, 11, 11);
+  box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+}
+
+.navbar-item {
+  color: rgb(128, 128, 128) !important;
+}
+.navbar-item:hover {
+  color: black !important ;
+}
