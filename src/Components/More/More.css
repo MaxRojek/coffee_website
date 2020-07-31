@@ -10,6 +10,7 @@ h4 {
 .containerBlock {
   display: flex;
   flex-wrap: wrap-reverse;
+  flex: 1;
 
   /* This line makes FlexBox responsive */
 }
@@ -26,6 +27,7 @@ h4 {
   box-sizing: border-box;
   padding: 0.7em;
   min-height: 50vh;
+  flex: 1;
 }
 
 .article {
@@ -35,17 +37,19 @@ h4 {
 .imageBlock {
   display: flex;
   flex-direction: column;
+  flex: 1;
   /* use: 'row' for text from top to bottom */
   justify-content: center;
-  background-image: url("https://media.istockphoto.com/photos/cup-of-strong-black-coffee-in-a-white-cup-and-saucer-picture-id955592660?k=6&m=955592660&s=170667a&w=0&h=IqfHIfU0WI8rDIjCbgFrV4euOJLQasRDMNh_Jlq34HI=");
+  background-image: url("../../img/cup.png");
   background-color: #fff;
   background-position: 50% 0%;
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
   flex: 1 0 50%;
   min-width: 300px;
   box-sizing: border-box;
   padding: 1em;
-
+  max-width: 50%;
   min-height: 50vh;
+  margin-bottom: 20px;
 }
