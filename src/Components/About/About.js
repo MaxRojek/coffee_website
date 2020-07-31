@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Media } from "reactstrap";
+import { Media } from "reactstrap";
 import { Spring } from "react-spring/renderprops";
 import VisibilitySensor from "react-visibility-sensor";
 const About = () => {
@@ -41,7 +41,7 @@ const About = () => {
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/5/55/Coffee_bean_transparent.png"
             class="img-fluid"
-            alt="Sample photo"
+            alt=""
           />
         </div>
       </div>

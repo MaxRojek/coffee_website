@@ -9,8 +9,8 @@ import Footer from "./Footer/Footer.js";
 const Home = () => {
   return (
     <>
-      <div class="container2">
-        <div class="box">
+      <div className="container2">
+        <div className="box">
           <Spring from={{ opacity: 0, marginTop: -500 }} to={{ opacity: 1, marginTop: 0 }}>
             {(props) => (
               <div style={props}>
@@ -30,13 +30,13 @@ const Home = () => {
           </Spring>
         </div>
       </div>
-      <div class="container3" id="about">
+      <div className="container3" id="about">
         <About />
       </div>
-      <div class="container3">
+      <div className="container3">
         <More />
       </div>
-      <div class="container3">
+      <div className="container3">
         <Spots />
       </div>
 
