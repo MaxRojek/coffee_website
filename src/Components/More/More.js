@@ -8,7 +8,7 @@ import "./More.css";
 // export default More;
 const More = () => {
   return (
-    <section class="containerBlock">
+    <section className="containerBlock">
       <div className="imageBlock"></div>
       <div className="textArticle">
         <article>

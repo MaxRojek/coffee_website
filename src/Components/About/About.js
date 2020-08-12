@@ -6,8 +6,8 @@ import VisibilitySensor from "react-visibility-sensor";
 const About = () => {
   return (
     <div className="square">
-      <div class="row">
-        <div class="column">
+      <div className="row">
+        <div className="column">
           <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-start", height: "650px" }}>
             <VisibilitySensor partialVisibility>
               {({ isVisible }) => (
@@ -36,10 +36,10 @@ const About = () => {
           </div>
         </div>
 
-        <div class="column">
+        <div className="column">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/5/55/Coffee_bean_transparent.png"
-            class="img-fluid"
+            className="img-fluid"
             alt=""
           />
         </div>
