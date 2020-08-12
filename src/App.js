@@ -21,7 +21,6 @@ function App() {
           </Route>
           <Route exact path="/info">
             <Home />
-            napis3
           </Route>
         </Switch>
       </BrowserRouter>

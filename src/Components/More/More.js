@@ -9,8 +9,8 @@ import "./More.css";
 const More = () => {
   return (
     <section class="containerBlock">
-      <div class="imageBlock"></div>
-      <div class="textArticle">
+      <div className="imageBlock"></div>
+      <div className="textArticle">
         <article>
           <h4>Twórca ?</h4>
           <div className="article">

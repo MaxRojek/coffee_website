@@ -11,30 +11,24 @@ const Footer = () => {
               <h4> Bonkava </h4>
             </div>
             <div className="col-lg-3 col-sm-2 col-xs-3">
-              <h3> Kontakt </h3>
+              <h4> Kontakt </h4>
               <ul>
-                <li>
-                  <a className="email" href="https://www.klapec.pl/">
-                    {" "}
-                    Cukiernia Klapec
-                  </a>
-                </li>
+                <li></li>
                 <br />
                 <li>
-                  {" "}
-                  <p> pawel@klapec.pl </p>{" "}
+                  <h5> pawel@klapec.pl </h5>
                 </li>
                 <li>
-                  <p> +48730003715 </p>{" "}
+                  <h5> +48730003715 </h5>
                 </li>
                 <li>
-                  <p> biuro@klapec.pl </p>{" "}
+                  <h5>biuro@klapec.pl</h5>
                 </li>
               </ul>
             </div>
-            {/* <div className="col-lg-3 col-sm-2 col-xs-3">
+            <div className="col-lg-3 col-sm-2 col-xs-3">
               <ul>
-                <li>
+                {/* <li>
                   {" "}
                   <h5>
                     {" "}
@@ -43,14 +37,15 @@ const Footer = () => {
                       ABOUT US
                     </a>{" "}
                   </h5>
-                </li>
+                </li> */}
                 <li>
-                  {" "}
                   <h5>
-                    <a href="#"> CURRENT SERIES </a>{" "}
+                    <a className="email" style={{ marginTop: "5em" }} href="https://www.klapec.pl/">
+                      Cukiernia Klapec
+                    </a>
                   </h5>
                 </li>
-                <li>
+                {/* <li>
                   {" "}
                   <h5>
                     <a href="#"> THE HOUSE </a>{" "}
@@ -61,9 +56,9 @@ const Footer = () => {
                   <h5>
                     <a href="#"> LOOKING BACK </a>{" "}
                   </h5>
-                </li>
+                </li> */}
               </ul>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

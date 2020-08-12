@@ -37,7 +37,6 @@ const About = () => {
         </div>
 
         <div class="column">
-          {/* <h2>Column 1</h2> */}
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/5/55/Coffee_bean_transparent.png"
             class="img-fluid"

@@ -12,17 +12,18 @@ h4 {
   flex-wrap: wrap-reverse;
   flex: 1;
 
+  justify-content: center;
   /* This line makes FlexBox responsive */
 }
 
 .textArticle {
   display: flex;
   flex-direction: center;
-
+  align-items: center;
   justify-content: center;
   background-color: white;
   flex: 0 1 50%;
-  min-width: 350px;
+  min-width: 300px;
 
   box-sizing: border-box;
   padding: 0.7em;
@@ -31,7 +32,8 @@ h4 {
 }
 
 .article {
-  margin-right: 10px;
+  padding-right: 50px;
+  font-size: 18px;
 }
 
 .imageBlock {
@@ -39,8 +41,11 @@ h4 {
   flex-direction: column;
   flex: 1;
   /* use: 'row' for text from top to bottom */
+  margin-left: 40px;
+
+  align-items: center;
   justify-content: center;
-  background-image: url("../../img/cup.png");
+  background-image: url("../../img/cup2.png");
   background-color: #fff;
   background-position: 50% 0%;
   background-size: contain;
@@ -48,8 +53,8 @@ h4 {
   flex: 1 0 50%;
   min-width: 300px;
   box-sizing: border-box;
-  padding: 1em;
+  margin: 10px;
   max-width: 50%;
   min-height: 50vh;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
