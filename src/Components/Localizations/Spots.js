@@ -4,7 +4,7 @@ import SpotCard from "./Card.js";
 const Spots = () => {
   return (
     <>
-      <div style={{ marginTop: "20px", height: "fit-content" }}>
+      <div id="localizations" style={{ marginTop: "20px", height: "fit-content" }}>
         <div
           style={{
             display: "flex",
@@ -13,7 +13,7 @@ const Spots = () => {
             paddingBottom: "60px",
           }}
         >
-          <h4> Nasze lokalizacje </h4>
+          <h4> Kawa dostępna w naszych lokalach </h4>
         </div>
         <div
           style={{

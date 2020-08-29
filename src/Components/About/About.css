@@ -5,26 +5,7 @@
   margin-left: 20px;
   margin-right: 40px;
 }
-/* .element {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 1px 10px;
-  grid-template-areas: "one two";
-  margin-left: 20px;
-  margin-right: 20px;
-  grid-auto-flow: column;
-}
-.one {
-  grid-area: one;
-  display: flex;
-  width: fit-content;
-}
 
-.two {
-  background-color: red;
-  grid-area: two;
-} */
 
 * {
   box-sizing: border-box;

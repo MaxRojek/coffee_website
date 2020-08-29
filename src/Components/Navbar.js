@@ -27,8 +27,11 @@ const Example = (props) => {
             Kontakt
           </NavLink>
 
-          <NavLink href="/info/" className="navbar-item">
+          <NavLink href="#localizations" className="navbar-item">
             Lokalizacje
+          </NavLink>
+          <NavLink href="#localizations" className="navbar-item">
+            Gdzie kupić ?
           </NavLink>
 
           <NavbarText></NavbarText>

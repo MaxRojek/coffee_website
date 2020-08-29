@@ -17,7 +17,6 @@ function App() {
           </Route>
           <Route exact path="/about">
             <Home />
-            napis2
           </Route>
           <Route exact path="/info">
             <Home />
