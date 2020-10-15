@@ -9,14 +9,8 @@ const About = () => {
       <div className="row">
         <div className="column">
           <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-start", height: "650px" }}>
-            <VisibilitySensor partialVisibility>
-              {({ isVisible }) => (
-                <Spring
-                  delay={500}
-                  to={{ opacity: isVisible ? 1 : 0, transform: isVisible ? "translateX(0)" : "translateX(200px)" }}
-                >
-                  {({ opacity }) => (
-                    <Media style={{ fontSize: "18px", opacity }}>
+          
+                    <Media style={{ fontSize: "18px"  }}>
                       <Media body style={{ minHeight: "fit-content" }}>
                         <Media heading>O nas</Media>
                         Jesienią 1991 roku miały miejsce dwa istotne wydarzenia w życiu rodziny Klapec: we wrześniu
@@ -29,10 +23,7 @@ const About = () => {
                         lodów.
                       </Media>
                     </Media>
-                  )}
-                </Spring>
-              )}
-            </VisibilitySensor>
+               
           </div>
         </div>
 

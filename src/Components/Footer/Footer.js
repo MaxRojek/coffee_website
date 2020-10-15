@@ -24,6 +24,16 @@ const Footer = () => {
                 <li>
                   <h5>biuro@klapec.pl</h5>
                 </li>
+                 <li>
+                  <h5>biuro@klapec.pl</h5>
+                </li>
+                <li>
+                   <h5>
+                    <a className="email" style={{ marginTop: "5em" }} href="https://www.klapec.pl/">
+                      Cukiernia Klapec
+                    </a>
+                  </h5>
+                  </li>
               </ul>
             </div>
             <div className="col-lg-3 col-sm-2 col-xs-3">
@@ -38,13 +48,13 @@ const Footer = () => {
                     </a>{" "}
                   </h5>
                 </li> */}
-                <li>
+                {/* <li>
                   <h5>
-                    <a className="email" style={{ marginTop: "5em" }} href="https://www.klapec.pl/">
+                    <a className="email" style={{ padding: "5em" }} href="https://www.klapec.pl/">
                       Cukiernia Klapec
                     </a>
                   </h5>
-                </li>
+                </li> */}
                 {/* <li>
                   {" "}
                   <h5>
