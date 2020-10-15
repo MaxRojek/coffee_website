@@ -11,7 +11,6 @@ const Example = (props) => {
     <>
       <Navbar fixed="top" light expand="md">
         <NavbarBrand href="/" style={{ fontSize: "30px" }}>
-          {" "}
           {/* <img src={require("../img/bonkava_black.png")} width="10%" height="20px" alt="" />{" "} */}
           Bonkava
         </NavbarBrand>

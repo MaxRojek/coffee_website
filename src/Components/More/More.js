@@ -1,7 +1,6 @@
 import React from "react";
 import "./More.css";
-import { Spring } from "react-spring/renderprops";
-import VisibilitySensor from "react-visibility-sensor";
+
 
 const More = () => {
   return (

@@ -1,8 +1,7 @@
 import React from "react";
 import "./About.css";
 import { Media } from "reactstrap";
-import { Spring } from "react-spring/renderprops";
-import VisibilitySensor from "react-visibility-sensor";
+
 const About = () => {
   return (
     <div className="square">

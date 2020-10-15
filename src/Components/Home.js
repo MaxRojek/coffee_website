@@ -3,7 +3,7 @@ import "./Home.css";
 import About from "./About/About.js";
 import More from "./More/More.js";
 import Spots from "./Localizations/Spots.js";
-import { Spring } from "react-spring/renderprops";
+
 import Footer from "./Footer/Footer.js";
 
 const Home = () => {
@@ -11,8 +11,7 @@ const Home = () => {
     <>
       <div className="container2">
         <div className="box">
-          <Spring from={{ opacity: 0, marginTop: -500 }} to={{ opacity: 1, marginTop: 0 }}>
-            {(props) => (
+         
               <div style={props}>
                 <img src={require("../img/bonkava_black.png")} alt="logo" className="img" />
                 <p
@@ -26,8 +25,7 @@ const Home = () => {
                   Nowa jakość smaku
                 </p>
               </div>
-            )}
-          </Spring>
+          
         </div>
       </div>
       <div className="container3" id="about">
