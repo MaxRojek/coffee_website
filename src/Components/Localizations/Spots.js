@@ -13,7 +13,7 @@ const Spots = () => {
             paddingBottom: "60px",
           }}
         >
-          <h4> Kawa dostępna w naszych lokalach </h4>
+          <h5> Kawa dostępna w naszych lokalach </h5>
         </div>
         <div
           style={{
