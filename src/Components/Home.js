@@ -12,7 +12,7 @@ const Home = () => {
       <div className="container2">
         <div className="box">
          
-              <div style={props}>
+              <div >
                 <img src={require("../img/bonkava_black.png")} alt="logo" className="img" />
                 <p
                   style={{
