@@ -13,7 +13,12 @@ const Spots = () => {
             paddingBottom: "60px",
           }}
         >
-          <h5> Kawa dostępna w naszych lokalach </h5>
+          <h3  style={{
+            textAlign:"center",
+            alignItems: "center",
+            justifyContent: "center",
+            
+          }}> Kawa dostępna w naszych lokalach </h3>
         </div>
         <div
           style={{

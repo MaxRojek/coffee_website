@@ -8,7 +8,7 @@ const Example = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <>
       <Navbar fixed="top" light expand="md">
         <NavbarBrand href="/" style={{ fontSize: "30px" }}>
           {" "}
@@ -37,7 +37,7 @@ const Example = (props) => {
           <NavbarText></NavbarText>
         </Collapse>
       </Navbar>
-    </div>
+    </>
   );
 };
 
